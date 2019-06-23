@@ -284,6 +284,9 @@ section {
   opacity: 1;
   cursor: pointer;
 }
+.image:hover .disabled {
+  cursor: auto;
+}
 #work h3 {
   color: #f0f0f0;
   margin: auto;
