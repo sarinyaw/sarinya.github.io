@@ -1,33 +1,42 @@
 /* BODY */
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   margin: 0;
   opacity: 0;
   transition: all .5s;
 }
+
 /* SCROLLBAR */
+
 ::-webkit-scrollbar {
   width: 8px;
 }
+
 ::-webkit-scrollbar-track {
   background: #f0f0f0
 }
+
 ::-webkit-scrollbar-thumb {
   background: #58a5ee
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: #014e97
 }
 
 /* CONTAINER */
+
 .container {
   height: auto;
   display: grid;
 }
 
 /* IMAGE */
+
 img {
   width: 100%;
   height: auto;
@@ -35,21 +44,26 @@ img {
 }
 
 /* FONT */
-h1,h2,h3,p {
+
+h1, h2, h3, p, li {
   user-select: none;
 }
+
 h1 {
   font-family: 'Mitr', sans-serif;
   font-weight: bold;
 }
+
 h2 {
   font-family: 'Sarabun', sans-serif;
   text-transform: uppercase;
 }
+
 h3 {
   font-family: 'Sarabun', sans-serif;
 }
-p {
+
+p, li {
   font-family: 'Sarabun', sans-serif;
   color: #4e4e4e;
 }
@@ -64,10 +78,11 @@ p {
   h3 {
     font-size: 20px;
   }
-  p {
+  p, li {
     font-size: 18px;
   }
 }
+
 @media screen and (min-width: 601px) {
   h1 {
     font-size: 60px;
@@ -78,10 +93,11 @@ p {
   h3 {
     font-size: 35px;
   }
-  p {
+  p, li {
     font-size: 30px;
   }
 }
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 70px;
@@ -92,18 +108,20 @@ p {
   h3 {
     font-size: 40px;
   }
-  p {
+  p, li {
     font-size: 30px;
   }
 }
 
 /* NAVBAR */
+
 .navbar {
   background-color: transparent;
   position: fixed;
   width: 100%;
   transition: all 1s;
 }
+
 .navbar-menu {
   background-color: transparent;
   box-shadow: unset;
@@ -111,24 +129,30 @@ p {
   right: 0;
   height: 66px;
 }
+
 .navbar img {
   width: 50px;
   max-height: 100%;
 }
+
 .navbar, .navbar-menu, .navbar-end {
   display: flex;
 }
+
 .navbar-end {
   margin-right: 25px;
 }
+
 .navbar-item, .navbar-link {
   color: white;
   font-family: 'Mitr', sans-serif;
 }
+
 .navbar-item:hover {
   background-color: transparent;
 }
-.navbar-menu .navbar-item:after {    
+
+.navbar-menu .navbar-item:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -140,31 +164,39 @@ p {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
+
 .navbar-menu .navbar-item:hover:after {
-  width: 100%; 
-  left: 0; 
+  width: 100%;
+  left: 0;
 }
+
 .item-active {
   color: #fff;
 }
+
 .item-active:after {
-  width: 100%; 
-  left: 0; 
+  width: 100%;
+  left: 0;
 }
+
 .navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
   background-color: transparent;
 }
+
 /* BUTTON */
+
 .button {
   font-family: 'Mitr', serif;
   transition: all 0.5s;
 }
+
 .back-to-top {
   display: none;
   position: fixed;
   bottom: 20px;
   right: 20px;
 }
+
 .back-to-top .button {
   width: 50px;
   height: 50px;
@@ -172,6 +204,7 @@ p {
   border-color: #58a5ee;
   color: #ffffff
 }
+
 .back-to-top .button:hover {
   background-color: #072c50;
   border-color: #072c50;
@@ -179,33 +212,40 @@ p {
 }
 
 /* SECTION */
+
 section {
   width: 100%;
   height: auto;
   background: #f1fbff
 }
+
 .container-box {
   width: 80%;
   height: auto;
   margin: auto;
   color: #fff;
 }
+
 .container-box h1 {
   font-family: 'Roboto Slab', serif;
   line-height: 1;
 }
+
 .container-box h2 {
   font-family: 'Roboto Slab', serif;
   line-height: 1.5;
 }
+
 .topic {
   color: #05203f;
   text-align: center;
   margin-top: 100px;
 }
+
 .topic h1 {
   line-height: 1.5;
 }
+
 .detail {
   width: 100%;
   height: auto;
@@ -213,20 +253,24 @@ section {
 }
 
 /* SECTION : ABOUT */
+
 #about {
-  background: linear-gradient(-45deg, #05203f, #1a6dbb,#0e2c4e);
+  background: linear-gradient(-45deg, #05203f, #1a6dbb, #0e2c4e);
   background-size: 400% 400%;
   -webkit-animation: Gradient 10s ease infinite;
   -moz-animation: Gradient 10s ease infinite;
   animation: Gradient 10s ease infinite;
 }
+
 #about .container {
   display: flex;
   min-height: 100vh;
 }
+
 #about .container-box {
   width: auto;
 }
+
 #about .button {
   opacity: 0;
   width: 250px;
@@ -238,6 +282,7 @@ section {
   line-height: 1;
   margin-left: 4%;
 }
+
 .typing {
   width: 100%;
   height: 100%;
@@ -245,28 +290,35 @@ section {
 }
 
 /* SECTION : SKILL */
+
 #skill .container {
   display: grid;
 }
+
 #skill .detail {
   color: #05203f;
 }
 
 /* SECTION : WORK */
+
 #work .container {
   display: grid;
 }
+
 #work .topic {
   margin-bottom: 5%;
 }
+
 #work .detail {
   margin: 0px auto;
 }
+
 #work .image {
   margin: 15px;
   padding: 0;
   transition: all 1s;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -280,53 +332,70 @@ section {
   background-color: #008CBA;
   display: grid;
 }
+
 .image:hover .overlay {
   opacity: 1;
   cursor: pointer;
 }
+
 .image:hover .disabled {
   cursor: auto;
 }
+
 #work h3 {
   color: #f0f0f0;
   margin: auto;
 }
+
 #work .top {
   margin-bottom: 0;
 }
+
 #work .bottom {
   margin-top: 0;
 }
+
 /* SECTION : CONTACT */
+
 #contact {
   min-height: unset;
 }
+
 #contact .container {
   min-height: unset;
   padding-bottom: 100px;
 }
+
 #contact h2 {
   color: #05203f;
 }
+
 #contact a:hover {
   color: #0077ff;
 }
+
 #contact .is-link {
   transition: all .5s;
 }
+
 #contact .is-link:hover {
   color: #0077ff;
 }
+
 /* FOOTER */
+
 .footer {
   padding: 30px;
   background-color: #05203f;
 }
+
 .footer p {
   color: #f1fbff;
   font-size: 18px;
 }
+
 /* ANIMATION */
+
 @-webkit-keyframes Gradient {
   0% {
     background-position: 0% 50%
@@ -338,6 +407,7 @@ section {
     background-position: 0% 50%
   }
 }
+
 @-moz-keyframes Gradient {
   0% {
     background-position: 0% 50%
@@ -349,6 +419,7 @@ section {
     background-position: 0% 50%
   }
 }
+
 @keyframes Gradient {
   0% {
     background-position: 0% 50%
@@ -360,17 +431,16 @@ section {
     background-position: 0% 50%
   }
 }
+
 @-webkit-keyframes pulse {
   from {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
-
   50% {
     -webkit-transform: scale3d(1.05, 1.05, 1.05);
     transform: scale3d(1.05, 1.05, 1.05);
   }
-
   to {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
@@ -382,12 +452,10 @@ section {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
   }
-
   50% {
     -webkit-transform: scale3d(1.05, 1.05, 1.05);
     transform: scale3d(1.05, 1.05, 1.05);
   }
-
   to {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
