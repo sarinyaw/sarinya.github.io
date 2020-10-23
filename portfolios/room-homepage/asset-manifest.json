@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolios/room-homepage/static/css/main.1850d5b9.chunk.css",
+    "main.js": "/portfolios/room-homepage/static/js/main.dcd4901a.chunk.js",
+    "main.js.map": "/portfolios/room-homepage/static/js/main.dcd4901a.chunk.js.map",
+    "runtime-main.js": "/portfolios/room-homepage/static/js/runtime-main.8bda1750.js",
+    "runtime-main.js.map": "/portfolios/room-homepage/static/js/runtime-main.8bda1750.js.map",
+    "static/js/2.0ec77ded.chunk.js": "/portfolios/room-homepage/static/js/2.0ec77ded.chunk.js",
+    "static/js/2.0ec77ded.chunk.js.map": "/portfolios/room-homepage/static/js/2.0ec77ded.chunk.js.map",
+    "index.html": "/portfolios/room-homepage/index.html",
+    "precache-manifest.32b0a8eacd21bab9ffd3e276d783d980.js": "/portfolios/room-homepage/precache-manifest.32b0a8eacd21bab9ffd3e276d783d980.js",
+    "service-worker.js": "/portfolios/room-homepage/service-worker.js",
+    "static/css/main.1850d5b9.chunk.css.map": "/portfolios/room-homepage/static/css/main.1850d5b9.chunk.css.map",
+    "static/js/2.0ec77ded.chunk.js.LICENSE.txt": "/portfolios/room-homepage/static/js/2.0ec77ded.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8bda1750.js",
+    "static/js/2.0ec77ded.chunk.js",
+    "static/css/main.1850d5b9.chunk.css",
+    "static/js/main.dcd4901a.chunk.js"
+  ]
+}
