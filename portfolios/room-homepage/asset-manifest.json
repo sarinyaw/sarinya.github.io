@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolios/room-homepage/static/css/main.00b9f4f9.chunk.css",
+    "main.css": "/portfolios/room-homepage/static/css/main.f759683e.chunk.css",
     "main.js": "/portfolios/room-homepage/static/js/main.ba0c44be.chunk.js",
     "main.js.map": "/portfolios/room-homepage/static/js/main.ba0c44be.chunk.js.map",
     "runtime-main.js": "/portfolios/room-homepage/static/js/runtime-main.8bda1750.js",
@@ -8,15 +8,15 @@
     "static/js/2.0ec77ded.chunk.js": "/portfolios/room-homepage/static/js/2.0ec77ded.chunk.js",
     "static/js/2.0ec77ded.chunk.js.map": "/portfolios/room-homepage/static/js/2.0ec77ded.chunk.js.map",
     "index.html": "/portfolios/room-homepage/index.html",
-    "precache-manifest.94e63625ee7d43b0085dc4a1f695fcca.js": "/portfolios/room-homepage/precache-manifest.94e63625ee7d43b0085dc4a1f695fcca.js",
+    "precache-manifest.dfb52d35ba7662ef5e661d6f22207b95.js": "/portfolios/room-homepage/precache-manifest.dfb52d35ba7662ef5e661d6f22207b95.js",
     "service-worker.js": "/portfolios/room-homepage/service-worker.js",
-    "static/css/main.00b9f4f9.chunk.css.map": "/portfolios/room-homepage/static/css/main.00b9f4f9.chunk.css.map",
+    "static/css/main.f759683e.chunk.css.map": "/portfolios/room-homepage/static/css/main.f759683e.chunk.css.map",
     "static/js/2.0ec77ded.chunk.js.LICENSE.txt": "/portfolios/room-homepage/static/js/2.0ec77ded.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8bda1750.js",
     "static/js/2.0ec77ded.chunk.js",
-    "static/css/main.00b9f4f9.chunk.css",
+    "static/css/main.f759683e.chunk.css",
     "static/js/main.ba0c44be.chunk.js"
   ]
 }
