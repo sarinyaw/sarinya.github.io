@@ -7,7 +7,7 @@ html {
 body {
   margin: 0;
   opacity: 0;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 /* SCROLLBAR */
@@ -17,15 +17,15 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f0f0f0
+  background: #f0f0f0;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #58a5ee
+  background: #58a5ee;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #014e97
+  background: #014e97;
 }
 
 /* CONTAINER */
@@ -45,26 +45,31 @@ img {
 
 /* FONT */
 
-h1, h2, h3, p, li {
+h1,
+h2,
+h3,
+p,
+li {
   user-select: none;
 }
 
 h1 {
-  font-family: 'Mitr', sans-serif;
+  font-family: "Mitr", sans-serif;
   font-weight: bold;
 }
 
 h2 {
-  font-family: 'Sarabun', sans-serif;
+  font-family: "Sarabun", sans-serif;
   text-transform: uppercase;
 }
 
 h3 {
-  font-family: 'Sarabun', sans-serif;
+  font-family: "Sarabun", sans-serif;
 }
 
-p, li {
-  font-family: 'Sarabun', sans-serif;
+p,
+li {
+  font-family: "Sarabun", sans-serif;
   color: #4e4e4e;
 }
 
@@ -78,7 +83,8 @@ p, li {
   h3 {
     font-size: 20px;
   }
-  p, li {
+  p,
+  li {
     font-size: 18px;
   }
 }
@@ -93,7 +99,8 @@ p, li {
   h3 {
     font-size: 35px;
   }
-  p, li {
+  p,
+  li {
     font-size: 30px;
   }
 }
@@ -108,7 +115,8 @@ p, li {
   h3 {
     font-size: 40px;
   }
-  p, li {
+  p,
+  li {
     font-size: 30px;
   }
 }
@@ -135,7 +143,9 @@ p, li {
   max-height: 100%;
 }
 
-.navbar, .navbar-menu, .navbar-end {
+.navbar,
+.navbar-menu,
+.navbar-end {
   display: flex;
 }
 
@@ -143,9 +153,10 @@ p, li {
   margin-right: 25px;
 }
 
-.navbar-item, .navbar-link {
+.navbar-item,
+.navbar-link {
   color: white;
-  font-family: 'Mitr', sans-serif;
+  font-family: "Mitr", sans-serif;
 }
 
 .navbar-item:hover {
@@ -179,14 +190,21 @@ p, li {
   left: 0;
 }
 
-.navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+.navbar-link.is-active,
+.navbar-link:focus,
+.navbar-link:focus-within,
+.navbar-link:hover,
+a.navbar-item.is-active,
+a.navbar-item:focus,
+a.navbar-item:focus-within,
+a.navbar-item:hover {
   background-color: transparent;
 }
 
 /* BUTTON */
 
 .button {
-  font-family: 'Mitr', serif;
+  font-family: "Mitr", serif;
   transition: all 0.5s;
 }
 
@@ -202,13 +220,13 @@ p, li {
   height: 50px;
   background-color: #58a5ee;
   border-color: #58a5ee;
-  color: #ffffff
+  color: #ffffff;
 }
 
 .back-to-top .button:hover {
   background-color: #072c50;
   border-color: #072c50;
-  color: #ffffff
+  color: #ffffff;
 }
 
 /* SECTION */
@@ -216,7 +234,7 @@ p, li {
 section {
   width: 100%;
   height: auto;
-  background: #f1fbff
+  background: #f1fbff;
 }
 
 .container-box {
@@ -227,12 +245,12 @@ section {
 }
 
 .container-box h1 {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   line-height: 1;
 }
 
 .container-box h2 {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   line-height: 1.5;
 }
 
@@ -328,8 +346,8 @@ section {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+  transition: 0.5s ease;
+  background-color: #008cba;
   display: grid;
 }
 
@@ -355,6 +373,17 @@ section {
   margin-top: 0;
 }
 
+#work .tagname {
+  margin: 0 auto;
+}
+
+#work .tagname span {
+  color: #008cba;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
 /* SECTION : CONTACT */
 
 #contact {
@@ -375,7 +404,7 @@ section {
 }
 
 #contact .is-link {
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 #contact .is-link:hover {
@@ -398,37 +427,37 @@ section {
 
 @-webkit-keyframes Gradient {
   0% {
-    background-position: 0% 50%
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 100% 50%
+    background-position: 100% 50%;
   }
   100% {
-    background-position: 0% 50%
+    background-position: 0% 50%;
   }
 }
 
 @-moz-keyframes Gradient {
   0% {
-    background-position: 0% 50%
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 100% 50%
+    background-position: 100% 50%;
   }
   100% {
-    background-position: 0% 50%
+    background-position: 0% 50%;
   }
 }
 
 @keyframes Gradient {
   0% {
-    background-position: 0% 50%
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 100% 50%
+    background-position: 100% 50%;
   }
   100% {
-    background-position: 0% 50%
+    background-position: 0% 50%;
   }
 }
 
