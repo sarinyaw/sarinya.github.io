@@ -159,7 +159,8 @@ li {
   font-family: "Mitr", sans-serif;
 }
 
-.navbar-item:hover {
+#header .navbar-item:hover {
+  color:#fff;
   background-color: transparent;
 }
 
